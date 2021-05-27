@@ -13,3 +13,4 @@ RUN go build -o main.o .
 WORKDIR /ViolinApp
 RUN mkdir /ViolinApp
 RUN cp /BuildSpace/main.o .
+EXPOSE 9000
