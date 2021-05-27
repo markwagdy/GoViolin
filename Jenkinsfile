@@ -4,7 +4,7 @@ pipeline {
 
         stage('build') {
             steps {
-              sh 'docker build -f Dockerfile . -t markwagdy/goViolin:v1.0 '
+              sh 'docker.build -f Dockerfile . -t markwagdy/goViolin:v1.0 '
             }
             }
 
